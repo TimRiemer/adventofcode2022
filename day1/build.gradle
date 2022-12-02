@@ -1,5 +1,9 @@
-apply plugin: 'application'
+plugins {
+    id 'application'
+}
 
-mainClassName = 'mobi.riemer.Puzzle1'
+application {
+    mainClass = 'mobi.riemer.Puzzle1'
+}
 
 description = 'day1'
