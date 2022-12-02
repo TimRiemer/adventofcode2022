@@ -1,0 +1,5 @@
+apply plugin: 'application'
+
+mainClassName = 'mobi.riemer.Puzzle1'
+
+description = 'day1'
