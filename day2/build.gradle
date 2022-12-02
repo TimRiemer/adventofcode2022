@@ -1,0 +1,9 @@
+plugins {
+    id 'application'
+}
+
+application {
+    mainClass = 'mobi.riemer.Puzzle'
+}
+
+description = 'day2'
