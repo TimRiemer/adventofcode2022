@@ -10,12 +10,12 @@ import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-public class Puzzle1 {
+public class Puzzle {
     public static void main(String[] args) {
         List<String> allLines = new ArrayList<>();
         List<Integer> calories = new ArrayList<>();
 
-        try (InputStream inputStream = Puzzle1.class.getResourceAsStream("/input.txt");
+        try (InputStream inputStream = Puzzle.class.getResourceAsStream("/input.txt");
              BufferedReader reader = new BufferedReader(new InputStreamReader(Objects.requireNonNull(inputStream)))) {
             allLines = reader.lines()
                     .collect(Collectors.toList());

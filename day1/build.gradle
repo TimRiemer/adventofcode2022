@@ -3,7 +3,7 @@ plugins {
 }
 
 application {
-    mainClass = 'mobi.riemer.Puzzle1'
+    mainClass = 'mobi.riemer.Puzzle'
 }
 
 description = 'day1'
